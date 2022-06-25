@@ -17,6 +17,10 @@ iframe {
     border: none;
 }
 
+button{
+    padding: 1rem;
+}
+
 .content {
     position: relative;
     display: flex;

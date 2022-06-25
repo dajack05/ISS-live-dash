@@ -19,3 +19,7 @@ function next(){
     const cellWidth = videoElems[currentIdx].getClientRects()[0].width;
     videoHolder.style.marginLeft = cellWidth*currentIdx+"px";
 }
+
+function fullscreen(){
+    videoHolder.requestFullscreen();
+}
